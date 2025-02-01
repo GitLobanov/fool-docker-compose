@@ -1,0 +1,11 @@
+services:
+  wiremock:
+    ports:
+      - 8080:8080
+    image: "wiremock/wiremock:latest"
+    container_name: wiremock
+    volumes:
+      # mounted variant to host
+      - ./__files:/home/wiremock/__files
+      - ./mappings:/home/wiremock/mappings
+    entrypoint: ["/docker-entrypoint.sh", "--global-response-templating", "--disable-gzip", "--verbose"]
