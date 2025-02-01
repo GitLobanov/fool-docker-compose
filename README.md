@@ -4,19 +4,10 @@ Welcome to the Docker Compose Collection! This repository is a curated collectio
 
 ## Table of Contents
 
-- [Categories](#categories)
+- [Categories](categories/categories.md)
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
-
-## [Categories](categories/categories.md)
-
-Explore the following categories to find the Docker Compose files that suit your needs:
-
-- Web Applications
-- Databases
-- Monitoring
-- Development
 
 ## [Examples](examples/examples.md)
 
